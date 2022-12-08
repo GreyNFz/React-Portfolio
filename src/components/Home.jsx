@@ -15,7 +15,7 @@ const Home = () => {
             I'm a UI/UX Designer & Full Stack Developer!
           </h2>
           <p className="text-green-200 py-4 max-w-md">
-            I have 1 years of experience building and desgining software.
+            I have one years of experience building and desgining software.
             Currently, I love to work on web application using technologies like
             React, Tailwind, Next JS and Figma.
           </p>
