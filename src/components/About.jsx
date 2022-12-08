@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        {/* My name is Naveen Fonseka, and I've been studying a degree in software engineering for almost two years. I built a website using the MERN stack, java, and other fundamental languages. When I was designing websites, I paid special attention to the user interface (UI). */}
+        My name is Naveen Fonseka, and I've been studying a degree in software engineering for almost two years. I built a website using the MERN stack, java, and other fundamental languages. When I was designing websites, I paid special attention to the user interface (UI).
         </p>
 
         <br />
