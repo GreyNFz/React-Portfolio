@@ -6,10 +6,10 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
-    {
-      id: 1,
-      link: "home",
-    },
+    // {
+    //   id: 1,
+    //   link: "home",
+    // },
     {
       id: 2,
       link: "about",
