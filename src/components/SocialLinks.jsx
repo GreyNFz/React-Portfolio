@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "https://mail.google.com/mail/u/0/#inbox",
+      // href: "https://mail.google.com/mail/u/0/#inbox",
     },
     {
       id: 4,
