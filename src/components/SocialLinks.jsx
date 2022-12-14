@@ -2,9 +2,21 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBehance } from "react-icons/fa";
 
 const SocialLinks = () => {
   const links = [
+
+    {
+      id: 5,
+      child: (
+        <>
+          Behance <FaBehance size={30} />
+        </>
+      ),
+      href: "https://www.behance.net/naveenfonseka",
+      style: "rounded-tr-md",
+    },
     {
       id: 1,
       child: (
