@@ -7,17 +7,24 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-red to-red-800"
+      className="h-screen w-full bg-gradient-to-r from-red-600 via-rose-500 to-orange-400"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a UI/UX Designer & Full Stack Developer!
-          </h2>
-          <p className="text-green-200 py-4 max-w-md">
+          <h1 className="text-4xl sm:text-7xl font-bold text-white">
+            I'm a Full Stack Developer & Game Designer 
+          </h1>
+          <p className="text-teal-200 py-4 max-w-md">
             I have one years of experience building and desgining software.
             Currently, I love to work on web application using technologies like
             React, Tailwind, Next JS and Figma.
+
+            <div>
+            <h2 className="text-teal-500">And speacialy I want to be a Game Developer as my carear life !</h2>
+
+            </div>
+
+            
           </p>
 
           <div>
@@ -25,7 +32,7 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-pink-500 cursor-pointer"
+              className="group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-300 via-cyan-300 to-blue-300 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
